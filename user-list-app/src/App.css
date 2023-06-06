@@ -1,0 +1,57 @@
+/* Body styles */
+body {
+  background-color: #27374D;
+  font-family: Arial, sans-serif;
+}
+
+/* App container styles */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  color:#9DB2BF;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  
+}
+
+li {
+  color: #9DB2BF;
+  font-size: 18px;
+  margin-bottom: 10px;
+  
+}
+
+li::before {
+  content: "•";
+  color: #9DB2BF;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Button styles */
+button {
+  background-color: #9DB2BF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7492A4;
+}
+

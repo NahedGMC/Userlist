@@ -1,0 +1,26 @@
+.user-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9DB2BF;
+    border-radius: 4px;
+  }
+  
+  .user-list h2 {
+    color: #27374D;
+    font-size: 55px;
+    margin-bottom: 20px;
+
+  }
+  
+  .user-list__list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list__item {
+    color: #ffffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
